@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080813">
+<meta name="description" content="Welcome to Pranto's personal website. Creative mind, big dreams.">
+<title>PRANTO | Personal Website</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg: #080813;
+    --purple: #a855f7;
+    --cyan: #22d3ee;
+    --text: #f8fafc;
+    --muted: #a5a5bd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#particles {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    pointer-events: none;
+}
+
+.background-glow {
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    filter: blur(110px);
+    opacity: .22;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.glow-one {
+    background: #9333ea;
+    top: 5%;
+    left: -150px;
+}
+
+.glow-two {
+    background: #0891b2;
+    right: -180px;
+    bottom: 5%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(8, 8, 19, .82);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(168, 85, 247, .18);
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px 24px;
+    display
